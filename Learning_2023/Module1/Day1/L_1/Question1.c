@@ -2,16 +2,16 @@
 
 //using ternary oprator
 void checkter(int num1, int num2){
-    printf("The Greatest number is %d\n", (num1>num2)?num1:num2);
+    printf("The Biggest number is %d\n", (num1>num2)?num1:num2);
 }
 
 //using if else 
 void checkif(int num1, int num2){
     if(num1 > num2){
-        printf("Number first is largest then second number");
+        printf("First number is bigger than second number");
     }
     else if (num1 < num2){
-        printf("Number second is largest then first number");
+        printf("Second number is bigger than first number");
     }
     else
     {
