@@ -15,7 +15,7 @@ int total(int a,int b,int c){
 int main(){
     int rollno,P_mark=10,C_mark=10,M_mark=10;
     char name[100];
-    printf("Enter Rollno. :");
+    printf("Enter Roll no. :");
     scanf("%d",&rollno);
     printf("Enter Full Name :");
     scanf(" %[^\n]", name);
