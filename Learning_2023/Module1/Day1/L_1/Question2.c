@@ -24,7 +24,7 @@ void grade(int marks){
 
 int main(){
     int marks;
-    printf("Enter marks: ");
+    printf("Enter the marks: ");
     scanf("%d",&marks);
     grade(marks);
     return 0;
